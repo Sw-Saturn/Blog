@@ -1,8 +1,9 @@
-baseurl = "http://sw-saturn.github.io/blog"
+baseurl = "http://sw-saturn.github.io/Blog"
 languageCode = "ja"
 title = "お気持ち表明"
 author = "Kanta Demizu"
 theme = "tale"
+canonifyurls = true
 
 [Author]
     name = "Kanta Demizu"
