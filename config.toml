@@ -3,7 +3,7 @@ languageCode = "ja"
 title = "お気持ち表明"
 author = "Kanta Demizu"
 theme = "tale"
-canonifyurls = true
+canonifyurls = false
 
 [Author]
     name = "Kanta Demizu"
