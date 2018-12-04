@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>お気持ち表明</title>
-    <link>http://sw-saturn.github.io/Blog/</link>
+    <link>http://sw-saturn.github.io/blog/</link>
     <description>Recent content on お気持ち表明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 04 Dec 2018 23:37:52 +0900</lastBuildDate>
     
-	<atom:link href="http://sw-saturn.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sw-saturn.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>今更ながらブログを作ってみた</title>
-      <link>http://sw-saturn.github.io/Blog/post/new/</link>
+      <link>http://sw-saturn.github.io/blog/post/new/</link>
       <pubDate>Tue, 04 Dec 2018 23:37:52 +0900</pubDate>
       
-      <guid>http://sw-saturn.github.io/Blog/post/new/</guid>
+      <guid>http://sw-saturn.github.io/blog/post/new/</guid>
       <description>こんにちは．
 某M高専の学生です．
 今更ながら，Hugo+GitHub Pagesでブログを作ってみました．
