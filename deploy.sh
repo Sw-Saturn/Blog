@@ -5,7 +5,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # Build the project.
 hugo -t tale # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-cp -p -f -R public/* docs
+\cp -p -f -R public/* docs
 git add .
 # Commit changes.
 msg="rebuilding site `date`"
