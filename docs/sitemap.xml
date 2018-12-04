@@ -3,28 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://sw-saturn.github.io/blog/post/new/</loc>
+    <loc>http://sw-saturn.github.io/Blog/post/new/</loc>
     <lastmod>2018-12-04T23:37:52+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://sw-saturn.github.io/blog/categories/</loc>
+    <loc>http://sw-saturn.github.io/Blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://sw-saturn.github.io/blog/post/</loc>
+    <loc>http://sw-saturn.github.io/Blog/post/</loc>
     <lastmod>2018-12-04T23:37:52+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://sw-saturn.github.io/blog/tags/</loc>
+    <loc>http://sw-saturn.github.io/Blog/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://sw-saturn.github.io/blog/</loc>
+    <loc>http://sw-saturn.github.io/Blog/</loc>
     <lastmod>2018-12-04T23:37:52+09:00</lastmod>
     <priority>0</priority>
   </url>
