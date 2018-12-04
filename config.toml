@@ -1,6 +1,7 @@
 baseurl = "http://sw-saturn.github.io/blog"
 title = "お気持ち表明"
 author = "Kanta Demizu"
+languageCode = "en-us"
 theme = "tale"
 canonifyurls = false
 
