@@ -3,6 +3,7 @@ title: "今更ながらブログを作ってみた"
 date: 2018-12-04T23:37:52+09:00
 draft: false
 author: "Kanta Demizu"
+summary: "今更ながら，ブログを作ってみました．"
 share: true
 ---
 

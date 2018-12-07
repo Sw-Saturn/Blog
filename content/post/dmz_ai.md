@@ -3,7 +3,7 @@ title: "dmz_ai作ってみた"
 date: 2018-12-07T08:49:55+09:00
 draft: false
 author: "Kanta Demizu"
-description: "こんなもん作ってみました．"
+summary: "人工知能(大嘘)を作ってみました．"
 share: true
 ---
 こんなもん作ってみました．
