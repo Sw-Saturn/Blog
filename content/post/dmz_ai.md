@@ -1,7 +1,7 @@
 ---
 title: "dmz_ai作ってみた"
 date: 2018-12-07T08:49:55+09:00
-draft: true
+draft: false
 author: "Kanta Demizu"
 share: true
 ---
