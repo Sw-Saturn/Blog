@@ -6,10 +6,29 @@
     <description>Recent content in Posts on お気持ち表明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Dec 2018 23:37:52 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Dec 2018 08:49:55 +0900</lastBuildDate>
     
 	<atom:link href="http://sw-saturn.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dmz_ai作ってみた</title>
+      <link>http://sw-saturn.github.io/blog/post/dmz_ai/</link>
+      <pubDate>Fri, 07 Dec 2018 08:49:55 +0900</pubDate>
+      
+      <guid>http://sw-saturn.github.io/blog/post/dmz_ai/</guid>
+      <description>こんなもん作ってみました．
+Tweets by dmz_ai 
+作ろうと思った経緯 　今年の10月下旬ごろに開催された高専プロコンに参加してきました．例年，高専プロコンが終わったらTLが賑やかになるんですよね． そしてTLのプロたちを眺めていたらこんなものが飛び込んできました． C#で人口無能と化した僕.botを作った - ケヴィンのなんかいろいろ
+突然ですが僕の分身を作りました。2日で作った（コミットログ曰く）。 twitter.com こいつについて書きます。 なにこれ？ モチベーション 実装とか ツイートを取得する、ツイートする 形態素解析して文節を抽出してテーブルを作る マルコフ連鎖（のような何か）を利用して、ツイートする文章を作る。 作った文章をツイート 問題 今後 参考資料
+kvinnoiroiro.hatenablog.com
+はいプロ． プロです．
+ということで私も作ってみました(便乗)．
+中身 簡単にいうと，自分のTLの発言を200Post取得して，MeCabで形態素解析する．
+形態素解析した語彙を単語ごとに分割して3つ組に分けてSQLiteデータベースにぶちこむ． マルコフ連鎖で文章生成して，Twitterに投稿する．的な流れです．
+ちなみに，MeCabのPythonバインディングを使用してPythonでプログラム構成，VPSでcronを使って定期的にツイートしています．また，毎回新規学習はしないです．学習したくなったタイミングで語彙のアップデートができます．
+総評  なんか動いてはいるものの，ベースの文章がガバガバなのでアレ 自分本体の語彙力データベースを更新するべきだなー プロになりたい  そのうちまた機能追加していい感じにしていきたいですね．</description>
+    </item>
     
     <item>
       <title>今更ながらブログを作ってみた</title>
