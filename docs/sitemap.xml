@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://sw-saturn.github.io/blog/post/1on1/</loc>
+    <lastmod>2018-12-17T14:36:18+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://sw-saturn.github.io/blog/post/dmz_ai/</loc>
     <lastmod>2018-12-07T08:49:55+09:00</lastmod>
   </url>
@@ -19,7 +24,7 @@
   
   <url>
     <loc>http://sw-saturn.github.io/blog/post/</loc>
-    <lastmod>2018-12-07T08:49:55+09:00</lastmod>
+    <lastmod>2018-12-17T14:36:18+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -30,7 +35,7 @@
   
   <url>
     <loc>http://sw-saturn.github.io/blog/</loc>
-    <lastmod>2018-12-07T08:49:55+09:00</lastmod>
+    <lastmod>2018-12-17T14:36:18+09:00</lastmod>
     <priority>0</priority>
   </url>
   
