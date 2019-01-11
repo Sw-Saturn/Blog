@@ -4,6 +4,7 @@ author = "Kanta Demizu"
 languageCode = "en-us"
 theme = "tale"
 canonifyurls = false
+googleAnalytics = "UA-132342615-1"
 
 [Author]
     name = "Kanta Demizu"
