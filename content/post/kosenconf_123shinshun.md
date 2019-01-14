@@ -27,7 +27,7 @@ share: true
 
 ふーつら。
 
-で、放課後に起業家甲子園のメンタリングということで、NICTの方とjig.jp代表の福野氏と会議。
+で、放課後に起業家甲子園のメンタリングということで、NICTの方とjig.jp会長の福野氏と会議。
 
 会議が終わったら、福野さんと、起業家甲子園出場メンバーとご飯にいきました。
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これはエモい飯です <a href="https://t.co/HKR69Gly2N">pic.twitter.com/HKR69Gly2N</a></p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1083734778543628289?ref_src=twsrc%5Etfw">2019年1月11日</a></blockquote>
