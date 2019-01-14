@@ -201,7 +201,7 @@ dotfilesのインストールスクリプト書かねばと思ったり、カ�
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">高専キャンプin舞鶴か…🤞</p>&mdash; 高専キャリア【公式】 (@kosen_career) <a href="https://twitter.com/kosen_career/status/1084803751272042502?ref_src=twsrc%5Etfw">2019年1月14日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-ちなみに、これやります。詳細はそのうち。
+ちなみに、これやります。りゅーかんさん提案ありがとうございます。詳細はそのうち。
 
 高専カンファレンスin舞鶴3もやるので、それと被せるかも。
 
