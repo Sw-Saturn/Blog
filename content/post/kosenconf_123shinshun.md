@@ -33,6 +33,12 @@ share: true
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これはエモい飯です <a href="https://t.co/HKR69Gly2N">pic.twitter.com/HKR69Gly2N</a></p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1083734778543628289?ref_src=twsrc%5Etfw">2019年1月11日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+フランクな感じに話をするのはいいですね。
+
+プログラミング教育の事とか、色々勉強になりました。
+
+やっぱり高専の繋がりはいいですね。
+
 起業家甲子園、頑張るぞ！
 
 <br />
