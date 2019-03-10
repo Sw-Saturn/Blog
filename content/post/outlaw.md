@@ -106,7 +106,7 @@ share: true
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">留年内定出ました！！！！！！！！！</p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1103552589470167041?ref_src=twsrc%5Etfw">2019年3月7日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# ちなみに，私は留年内定出ました．
+## ちなみに，私は留年内定出ました
 
 
 
