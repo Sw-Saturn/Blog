@@ -71,7 +71,6 @@ share: true
 [ことでんおんせん乗車入浴券](http://www.kotoden.co.jp/publichtm/kotoden/ticket/kotoden_onsen/index.html)が本当に優秀。
 ことでんかわいいので乗って欲しい。
 
-![koto](/images/IMG_5948.jpg)
 
 そうこうしてるうちに高専カンファレンスに間に合いそうになくなったので，一部オタクを置いて会場に向かいました。
 
