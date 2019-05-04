@@ -1,3 +1,12 @@
+---
+title: "高専キャンプ in 讃岐に参加した話"
+date: 2019-05-04T21:48:21+09:00
+draft: false
+author: "Kanta Demizu"
+summary: "キャンプたのしい"
+share: true
+---
+
 ## tl;dr
 - キャンプたのしい
 - 雨やった
