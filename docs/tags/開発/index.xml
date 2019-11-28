@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>開発 on お気持ち表明</title>
-    <link>https://sw-saturn.dev/blog/tags/%E9%96%8B%E7%99%BA/</link>
+    <link>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</link>
     <description>Recent content in 開発 on お気持ち表明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Dec 2018 08:49:55 +0900</lastBuildDate>
     
-	<atom:link href="https://sw-saturn.dev/blog/tags/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>dmz_ai作ってみた</title>
-      <link>https://sw-saturn.dev/blog/2018/12/dmz_ai%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://blog.sw-saturn.dev/2018/12/dmz_ai%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Fri, 07 Dec 2018 08:49:55 +0900</pubDate>
       
-      <guid>https://sw-saturn.dev/blog/2018/12/dmz_ai%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://blog.sw-saturn.dev/2018/12/dmz_ai%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>人工知能(大嘘)を作ってみました．</description>
     </item>
     
     <item>
       <title>今更ながらブログを作ってみた</title>
-      <link>https://sw-saturn.dev/blog/2018/12/%E4%BB%8A%E6%9B%B4%E3%81%AA%E3%81%8C%E3%82%89%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
+      <link>https://blog.sw-saturn.dev/2018/12/%E4%BB%8A%E6%9B%B4%E3%81%AA%E3%81%8C%E3%82%89%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</link>
       <pubDate>Tue, 04 Dec 2018 23:37:52 +0900</pubDate>
       
-      <guid>https://sw-saturn.dev/blog/2018/12/%E4%BB%8A%E6%9B%B4%E3%81%AA%E3%81%8C%E3%82%89%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
+      <guid>https://blog.sw-saturn.dev/2018/12/%E4%BB%8A%E6%9B%B4%E3%81%AA%E3%81%8C%E3%82%89%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/</guid>
       <description>今更ながら，ブログを作ってみました．</description>
     </item>
     
