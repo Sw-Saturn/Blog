@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>dmz_ai作ってみた &middot; お気持ち表明</title>
+
+		
+  		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/fonts.css">
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="お気持ち表明" />
+	</head>
+
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="/">
+					<h2 class="nav-title">お気持ち表明</h2>
+				</a>
+				<ul>
+    
+    
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Kanta Demizu
+        <br>
+        <span>on&nbsp;</span><time datetime="2018-12-07 08:49:55 &#43;0900 JST">December 7, 2018</time>
+</div>
+		<h1 class="post-title">dmz_ai作ってみた</h1>
+<div class="post-line"></div>
+
+		
+
+		<p>こんなもん作ってみました．</p>
+<p><!-- raw HTML omitted -->Tweets by dmz_ai<!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h3 id="heading">作ろうと思った経緯</h3>
+<p>　今年の10月下旬ごろに開催された高専プロコンに参加してきました．例年，高専プロコンが終わったらTLが賑やかになるんですよね．
+そしてTLのプロたちを眺めていたらこんなものが飛び込んできました．</p>
+<!-- raw HTML omitted -->
+<p>はいプロ．
+プロです．</p>
+<p>ということで私も作ってみました(便乗)．</p>
+<h2 id="heading1">中身</h2>
+<p>簡単にいうと，自分のTLの発言を200Post取得して，<a href="http://taku910.github.io/mecab/">MeCab</a>で形態素解析する．</p>
+<p>形態素解析した語彙を単語ごとに分割して3つ組に分けてSQLiteデータベースにぶちこむ．
+マルコフ連鎖で文章生成して，Twitterに投稿する．的な流れです．</p>
+<p>ちなみに，MeCabのPythonバインディングを使用してPythonでプログラム構成，VPSでcronを使って定期的にツイートしています．また，毎回新規学習はしないです．学習したくなったタイミングで語彙のアップデートができます．</p>
+<h2 id="heading2">総評</h2>
+<ul>
+<li>なんか動いてはいるものの，ベースの文章がガバガバなのでアレ</li>
+<li>自分本体の語彙力データベースを更新するべきだなー</li>
+<li>プロになりたい</li>
+</ul>
+<p>そのうちまた機能追加していい感じにしていきたいですね．</p>
+<h3 id="2019-feb05">追記@2019 Feb.05</h3>
+<p>適当にリプを送ると返答してくれるようになったよ！
+やったね！</p>
+<p><del>送りまくるとAPI制限引っかかると思うよ</del></p>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="/2018/12/%E4%BB%8A%E6%9B%B4%E3%81%AA%E3%81%8C%E3%82%89%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F/" class="left arrow">&#8592;</a>
+		<a href="/2018/12/%E3%82%B5%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%BA%E4%B8%BB%E5%82%AC%E3%81%AE%E9%80%86%E6%B1%82%E4%BA%BA%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F%E3%81%8A%E8%A9%B1/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2019-11-29 00:57:27.750412 &#43;0900 JST m=&#43;0.116962900">2019</time> Kanta Demizu. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>
