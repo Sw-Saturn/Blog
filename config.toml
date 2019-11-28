@@ -25,7 +25,7 @@ enableEmoji = true
 [params.author]
   thumbnail = "/img/author.png"
   name = "Kanta Demizu"
-  description = "<center>プロフィールは<a href='/about'>こちら</a>。</center>"
+  description = "<center>プロフィールは<a href='https://sw-saturn.dev'>こちら</a>。</center>"
 
 [outputs]
   page = [ "HTML", "AMP" ]
