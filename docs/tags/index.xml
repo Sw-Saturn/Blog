@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on お気持ち表明</title>
-    <link>https://blog.sw-saturn.dev/tags/</link>
+    <link>https://sw-saturn.dev/blog/tags/</link>
     <description>Recent content in Tags on お気持ち表明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 May 2019 21:48:21 +0900</lastBuildDate>
     
-	<atom:link href="https://blog.sw-saturn.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sw-saturn.dev/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>イベント</title>
-      <link>https://blog.sw-saturn.dev/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
+      <link>https://sw-saturn.dev/blog/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
       <pubDate>Sat, 04 May 2019 21:48:21 +0900</pubDate>
       
-      <guid>https://blog.sw-saturn.dev/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
+      <guid>https://sw-saturn.dev/blog/tags/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
       <description></description>
     </item>
     
     <item>
       <title>キャンプ</title>
-      <link>https://blog.sw-saturn.dev/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97/</link>
+      <link>https://sw-saturn.dev/blog/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97/</link>
       <pubDate>Sat, 04 May 2019 21:48:21 +0900</pubDate>
       
-      <guid>https://blog.sw-saturn.dev/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97/</guid>
+      <guid>https://sw-saturn.dev/blog/tags/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97/</guid>
       <description></description>
     </item>
     
     <item>
       <title>高専カンファレンス</title>
-      <link>https://blog.sw-saturn.dev/tags/%E9%AB%98%E5%B0%82%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</link>
+      <link>https://sw-saturn.dev/blog/tags/%E9%AB%98%E5%B0%82%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</link>
       <pubDate>Sat, 04 May 2019 21:48:21 +0900</pubDate>
       
-      <guid>https://blog.sw-saturn.dev/tags/%E9%AB%98%E5%B0%82%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</guid>
+      <guid>https://sw-saturn.dev/blog/tags/%E9%AB%98%E5%B0%82%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>就活</title>
-      <link>https://blog.sw-saturn.dev/tags/%E5%B0%B1%E6%B4%BB/</link>
+      <link>https://sw-saturn.dev/blog/tags/%E5%B0%B1%E6%B4%BB/</link>
       <pubDate>Sun, 10 Mar 2019 14:42:49 +0900</pubDate>
       
-      <guid>https://blog.sw-saturn.dev/tags/%E5%B0%B1%E6%B4%BB/</guid>
+      <guid>https://sw-saturn.dev/blog/tags/%E5%B0%B1%E6%B4%BB/</guid>
       <description></description>
     </item>
     
     <item>
       <title>高専キャリア</title>
-      <link>https://blog.sw-saturn.dev/tags/%E9%AB%98%E5%B0%82%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</link>
+      <link>https://sw-saturn.dev/blog/tags/%E9%AB%98%E5%B0%82%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</link>
       <pubDate>Thu, 10 Jan 2019 20:54:55 +0900</pubDate>
       
-      <guid>https://blog.sw-saturn.dev/tags/%E9%AB%98%E5%B0%82%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</guid>
+      <guid>https://sw-saturn.dev/blog/tags/%E9%AB%98%E5%B0%82%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>旅行</title>
-      <link>https://blog.sw-saturn.dev/tags/%E6%97%85%E8%A1%8C/</link>
+      <link>https://sw-saturn.dev/blog/tags/%E6%97%85%E8%A1%8C/</link>
       <pubDate>Mon, 31 Dec 2018 21:06:03 +0900</pubDate>
       
-      <guid>https://blog.sw-saturn.dev/tags/%E6%97%85%E8%A1%8C/</guid>
+      <guid>https://sw-saturn.dev/blog/tags/%E6%97%85%E8%A1%8C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>開発</title>
-      <link>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</link>
+      <link>https://sw-saturn.dev/blog/tags/%E9%96%8B%E7%99%BA/</link>
       <pubDate>Fri, 07 Dec 2018 08:49:55 +0900</pubDate>
       
-      <guid>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</guid>
+      <guid>https://sw-saturn.dev/blog/tags/%E9%96%8B%E7%99%BA/</guid>
       <description></description>
     </item>
     
