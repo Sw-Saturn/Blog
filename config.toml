@@ -2,6 +2,7 @@ baseurl = "https://blog.sw-saturn.dev/"
 title = "お気持ち表明"
 author = "Kanta Demizu"
 languageCode = "en-us"
+hasCJKLanguage = true
 canonifyurls = false
 theme = "robust"
 enableEmoji = true
@@ -12,9 +13,19 @@ enableEmoji = true
 [permalinks]
     post = "/:year/:month/:slug/"
 
-
 [params]
     # Fonts settings.
     googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
     fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
     logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+
+[taxonomies]
+    tag = "tags"
+
+[params.author]
+  thumbnail = "/img/author.png"
+  name = "Kanta Demizu"
+  description = "<center>プロフィールは<a href='/about'>こちら</a>。</center>"
+
+[outputs]
+  page = [ "HTML", "AMP" ]
