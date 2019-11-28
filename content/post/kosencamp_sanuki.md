@@ -16,24 +16,18 @@ tags: ["高専カンファレンス", "キャンプ", "イベント"]
 
 ## 前日
 
-
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ロールマットでけえ <a href="https://t.co/SuY9bQXk4l">pic.twitter.com/SuY9bQXk4l</a></p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1122881977906892802?ref_src=twsrc%5Etfw">2019年4月29日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+{{< tweet 1122881977906892802 >}}
 でかい荷物を持っていった。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ゆるキャンを観る</p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1122896465309732871?ref_src=twsrc%5Etfw">2019年4月29日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1122896465309732871 >}}
 
 予習した。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">0次会 w/ 傘袋 <a href="https://t.co/sgzMjYIGAU">pic.twitter.com/sgzMjYIGAU</a></p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1123014359502843904?ref_src=twsrc%5Etfw">2019年4月30日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1123014359502843904 >}}
 
 フェリーは傘と共に。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">スタバ！ <a href="https://t.co/Ff4ldJ9Xmw">pic.twitter.com/Ff4ldJ9Xmw</a></p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1123080551651368960?ref_src=twsrc%5Etfw">2019年4月30日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1123080551651368960 >}}
 
 お昼は実行委員長とスタバに行きました。
 
@@ -44,8 +38,7 @@ tags: ["高専カンファレンス", "キャンプ", "イベント"]
 これは本質情報なのですが，楽しすぎるとTwitterする余裕がなくなるのです。マジで。
 
 夕飯は雨の中オタクと鍋を囲みました。
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/kosencamp?src=hash&amp;ref_src=twsrc%5Etfw">#kosencamp</a> 個人的ダイジェスト<br><br>・オタク1「いや～キャンプっぽいな～」オタク2「いやキャンプやで」<br>・褒め言葉が「東大理IIIやん」<br>・空からエビが降ってきて改元<br>・Rikito_cure謎フォーム<br>・真夜中に君が代合唱するオタクきっっっっっつ</p>&mdash; 久石奏になりたい (@Rikito_cure) <a href="https://twitter.com/Rikito_cure/status/1123351892963119106?ref_src=twsrc%5Etfw">2019年4月30日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1123351892963119106 >}}
 
 改元の瞬間はオタクと君が代大合唱で限界だった。
 
@@ -59,13 +52,11 @@ tags: ["高専カンファレンス", "キャンプ", "イベント"]
 
 雨だったので靴がめっちゃ濡れてた。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ゆるキャンΔ <a href="https://t.co/xltN4cu17R">pic.twitter.com/xltN4cu17R</a></p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1123342954779643904?ref_src=twsrc%5Etfw">2019年4月30日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1123342954779643904 >}}
 
 朝食はゆるキャン△をしました。なでしこかわいい。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">おふおふお風呂 (@ 仏生山温泉 天平湯 in 高松市, 香川県) <a href="https://t.co/h4unSnereX">https://t.co/h4unSnereX</a></p>&mdash; でみ (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1123405601030144000?ref_src=twsrc%5Etfw">2019年5月1日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1123405601030144000 >}}
 
 高松港に向かってオタクとおふおふおふろしました。
 

@@ -29,52 +29,42 @@ share: true
 
 
 ## 当日
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">えらいのでヤクを決めた これで花粉に勝てる</p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104163440237568000?ref_src=twsrc%5Etfw">2019年3月8日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104163440237568000 >}}
 
 ヤクを決めて花粉に完全勝利しました．
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">この富豪が特急にペイした (@ 近鉄 京都駅 in 京都市, 京都府) <a href="https://t.co/IwGovgv2Dk">https://t.co/IwGovgv2Dk</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104175289268092928?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104175289268092928 >}}
 
 富豪ムーブで会場入りします
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">2つ後ろに座ってた…w <a href="https://t.co/5xFKljddDJ">https://t.co/5xFKljddDJ</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104383278964830208?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104383278964830208 >}}
 
 乗ってる時は気づかなかった...
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">俺が†奈良†だ (@ 近鉄奈良駅 in 奈良市, 奈良県) <a href="https://t.co/8dYRcJRgf1">https://t.co/8dYRcJRgf1</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104186587980681217?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104186587980681217 >}}
 
 対戦よろしくお願いします
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ﾐ゛ｯ <a href="https://t.co/S9pwd1ejqr">pic.twitter.com/S9pwd1ejqr</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104189313388933126?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104189313388933126 >}}
 
 自生する鹿に対戦を挑まれました
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">対戦よろしくお願いします (@ 奈良商工会議所 in 奈良市, 奈良県) <a href="https://t.co/fOrPLk88Mm">https://t.co/fOrPLk88Mm</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104191709590839296?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104191709590839296 >}}
 
 会場入り
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">対戦よろしくお願いします <a href="https://t.co/rdm04M4uN9">pic.twitter.com/rdm04M4uN9</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104196180991332352?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104196180991332352 >}}
 
 オタクフルセット
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">リキト様「香川県のお土産」 <a href="https://t.co/GJ84NZy90p">pic.twitter.com/GJ84NZy90p</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104198533874241536?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104198533874241536 >}}
 
 リキト様にエンカして香川県のお土産?をもらいました．
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">HHKBでマウント取られオタク <a href="https://t.co/CVyQOc4luA">pic.twitter.com/CVyQOc4luA</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104198629097525249?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104198629097525249 >}}
 
 周りにHHKB勢が2人もいましたね
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">HHKBの打鍵音に癒されています</p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104203885726511105?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104203885726511105 >}}
 
 や，HHKBはいいぞ
 
@@ -87,27 +77,21 @@ share: true
 温泉でハッカソンとかやってみたい(唐突)
 
 昼休憩の時間にTwitterチョコ見つけました
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Twitterチョコ！w <a href="https://t.co/3CVI3G2Fzk">pic.twitter.com/3CVI3G2Fzk</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104224061226278913?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104224061226278913 >}}
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">このオタクが悪い2019 <a href="https://t.co/gsOSlMgpif">pic.twitter.com/gsOSlMgpif</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104228598108512257?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104228598108512257 >}}
 
 リキト様がﾔﾏｹﾞﾝの白パーカーに鹿せんべいを差す光景を目の当たりにした．
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">鹿と名刺交換するオタク <a href="https://t.co/EFlzZG4s79">pic.twitter.com/EFlzZG4s79</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104229770747817985?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+{{< tweet 1104229770747817985 >}}
 今の時代は鹿とも名刺交換するよ！
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">布教オタク <a href="https://t.co/LDvl2XINWf">pic.twitter.com/LDvl2XINWf</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104230278598283264?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104230278598283264 >}}
 
 そしてオタク活動を布教するまでが重要です．
 
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/kosenconf?src=hash&amp;ref_src=twsrc%5Etfw">#kosenconf</a> <a href="https://twitter.com/hashtag/kosenconf_129nara?src=hash&amp;ref_src=twsrc%5Etfw">#kosenconf_129nara</a> <a href="https://t.co/RiVqokjM4w">pic.twitter.com/RiVqokjM4w</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104268808535982080?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104268808535982080 >}}
 
 懇親会で[@Ymgn_Bass](https://twitter.com/ymgn_bass)からおにぎりせんべい指し棒を見せて貰ったのですが，手触りがまんまおにぎりせんべいでやばかった(語彙力)
 
@@ -117,8 +101,7 @@ share: true
 
 自分は奈良ならすぐいけるので1回は満喫しに行きたいと思います．
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">麺きた <a href="https://t.co/EQnqGNI970">pic.twitter.com/EQnqGNI970</a></p>&mdash; でみ@学年v4 (@Sw_Saturn) <a href="https://twitter.com/Sw_Saturn/status/1104315812699992064?ref_src=twsrc%5Etfw">2019年3月9日</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< tweet 1104315812699992064 >}}
 
 晩御飯はオススメのラーメン屋に行きました．
 
