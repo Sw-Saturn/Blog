@@ -4,6 +4,7 @@ date: 2019-03-10T14:42:49+09:00
 draft: false
 author: "Kanta Demizu"
 summary: "就活アゲイン"
+tags: ["就活"]
 share: true
 ---
 

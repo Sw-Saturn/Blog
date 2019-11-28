@@ -4,6 +4,7 @@ date: {{ .Date }}
 draft: true
 author: "Kanta Demizu"
 summary: ""
+tags: []
 share: true
 ---
 

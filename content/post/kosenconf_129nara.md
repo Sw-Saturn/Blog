@@ -3,6 +3,7 @@ title: "高専カンファレンスin奈良に参加した話"
 date: 2019-03-10T16:30:54+09:00
 draft: false
 author: "Kanta Demizu"
+tags: ["高専カンファレンス", "イベント"]
 summary: "京都に帰ってきた理由の1つ"
 share: true
 ---

@@ -1,8 +1,9 @@
----
+﻿---
 title: "高専カンファレンス新春in大阪に参加したお話"
 date: 2019-01-14T15:30:33+09:00
 draft: false
 author: "Kanta Demizu"
+tags: ["高専カンファレンス", "イベント"]
 summary: "そろそろ登壇しろよ"
 share: true
 ---

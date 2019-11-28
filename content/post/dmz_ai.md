@@ -4,11 +4,12 @@ date: 2018-12-07T08:49:55+09:00
 draft: false
 author: "Kanta Demizu"
 summary: "人工知能(大嘘)を作ってみました．"
+tags: ["開発"]
 share: true
 ---
 こんなもん作ってみました．
 
-<a class="twitter-timeline" width=60% height="400px" href="https://twitter.com/dmz_ai?ref_src=twsrc%5Etfw">Tweets by dmz_ai</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/dmz_ai?ref_src=twsrc%5Etfw">Tweets by dmz_ai</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### 作ろうと思った経緯
 

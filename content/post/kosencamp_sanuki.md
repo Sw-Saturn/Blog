@@ -5,6 +5,7 @@ draft: false
 author: "Kanta Demizu"
 summary: "キャンプたのしい"
 share: true
+tags: ["高専カンファレンス", "キャンプ", "イベント"]
 ---
 
 ## tl;dr

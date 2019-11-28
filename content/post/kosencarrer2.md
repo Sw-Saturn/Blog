@@ -1,8 +1,9 @@
----
+﻿---
 title: "第2回高専キャリア全国大会に参加したお話"
 date: 2019-01-10T20:54:55+09:00
 draft: false
 author: "Kanta Demizu"
+tags: ["高専キャリア", "イベント"]
 summary: "進捗どうですか"
 share: true
 ---

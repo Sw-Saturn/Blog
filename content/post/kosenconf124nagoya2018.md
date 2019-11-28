@@ -3,6 +3,7 @@ title: "高専カンファレンス in 名古屋2018に参加したお話"
 date: 2018-12-24T00:40:14+09:00
 draft: false
 author: "Kanta Demizu"
+tags: ["高専カンファレンス", "イベント"]
 summary: "オタクオフはいいぞ"
 share: true
 ---
