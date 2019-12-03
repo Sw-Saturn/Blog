@@ -103,3 +103,5 @@ thumbnail: "https://pbs.twimg.com/media/EKylTK-U8AI8l3_?format=jpg&name=large"
 今後もでみから目が離せそうにはありませんね！
 
 それでは、ここまで読んでいただきありがとうございました！
+
+(本当は誕生日カウントダウンアプリ作ってたけどDBの永続化ができてなくってお見せできません)(そのうちQiiitaにでも書きます)
