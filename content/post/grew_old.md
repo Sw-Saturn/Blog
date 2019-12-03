@@ -9,7 +9,9 @@ share: true
 toc: true
 ---
 
-**この記事は[「オタクのためのオタクラジオ Advent Calendar 2019」](https://adventar.org/calendars/4118)の3日目の記事です。**
+**この記事は「オタクのためのオタクラジオ Advent Calendar 2019」の3日目の記事です。**
+
+{{<blog "https://adventar.org/calendars/4118">}}
 
 ## はじめに
 
