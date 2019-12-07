@@ -1,7 +1,7 @@
 ---
 title: "Rapidoを使って334秒でTODOアプリを作る"
 date: 2019-12-07T21:27:14+09:00
-draft: true
+draft: false
 author: "Kanta Demizu"
 summary: "334秒でアプリ開発"
 tags: ['開発','rapido','flutter']

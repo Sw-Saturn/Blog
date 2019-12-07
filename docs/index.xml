@@ -6,10 +6,19 @@
     <description>Recent content on お気持ち表明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2019 19:54:40 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 21:27:14 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.sw-saturn.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rapidoを使って334秒でTODOアプリを作る</title>
+      <link>https://blog.sw-saturn.dev/2019/12/07/334todo/</link>
+      <pubDate>Sat, 07 Dec 2019 21:27:14 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/2019/12/07/334todo/</guid>
+      <description>334秒でアプリ開発</description>
+    </item>
     
     <item>
       <title>年をとった話</title>

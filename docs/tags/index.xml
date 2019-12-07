@@ -6,10 +6,37 @@
     <description>Recent content in Tags on お気持ち表明</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2019 21:48:21 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 21:27:14 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.sw-saturn.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>flutter</title>
+      <link>https://blog.sw-saturn.dev/tags/flutter/</link>
+      <pubDate>Sat, 07 Dec 2019 21:27:14 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rapido</title>
+      <link>https://blog.sw-saturn.dev/tags/rapido/</link>
+      <pubDate>Sat, 07 Dec 2019 21:27:14 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/tags/rapido/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開発</title>
+      <link>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</link>
+      <pubDate>Sat, 07 Dec 2019 21:27:14 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>イベント</title>
@@ -62,15 +89,6 @@
       <pubDate>Mon, 31 Dec 2018 21:06:03 +0900</pubDate>
       
       <guid>https://blog.sw-saturn.dev/tags/%E6%97%85%E8%A1%8C/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>開発</title>
-      <link>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</link>
-      <pubDate>Fri, 07 Dec 2018 08:49:55 +0900</pubDate>
-      
-      <guid>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</guid>
       <description></description>
     </item>
     
