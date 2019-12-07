@@ -6,5 +6,8 @@ author: "Kanta Demizu"
 summary: ""
 tags: []
 share: true
+toc: true
+thumbnail: ""
+slug: {{ .File.BaseFileName }}
 ---
 

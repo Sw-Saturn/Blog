@@ -706,6 +706,13 @@
     background-size: cover;
     background-position: center;
   }
+
+  figure.inline {
+    display: inline;
+  }
+  figure.inline img {
+    display: inline;
+  }
   
   {{ range $p := .Site.RegularPages }}
   {{ with $p.Params.thumbnail }}

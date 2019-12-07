@@ -11,7 +11,7 @@ enableEmoji = true
     name = "Kanta Demizu"
 
 [permalinks]
-    post = "/:year/:month/:slug/"
+    post = "/:year/:month/:day/:slug/"
 
 [params]
     # Fonts settings.

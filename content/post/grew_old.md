@@ -8,6 +8,7 @@ tags: []
 share: true
 toc: true
 thumbnail: "https://pbs.twimg.com/media/EKylTK-U8AI8l3_?format=jpg&name=large"
+slug: "grewold"
 ---
 
 **この記事は「オタクのためのオタクラジオ Advent Calendar 2019」の3日目の記事です。**

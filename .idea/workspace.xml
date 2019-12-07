@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfbdb76-8119-4876-8553-32c2be48080b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/_default/baseof.amp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/latests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/partials/twitter.amp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/author.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/post/1on1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/post/1on1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +73,8 @@
       <workItem from="1557369279983" duration="13000" />
       <workItem from="1574958340829" duration="26000" />
       <workItem from="1574958408792" duration="1591000" />
+      <workItem from="1575423662583" duration="30000" />
+      <workItem from="1575442209091" duration="22000" />
     </task>
     <servers />
   </component>
