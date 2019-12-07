@@ -1,5 +1,5 @@
 ---
-title: "Rapidoを使って334秒でTODOアプリを作る"
+title: "Rapidoを使って334秒でTODOアプリを作る話"
 date: 2019-12-07T21:27:14+09:00
 draft: false
 author: "Kanta Demizu"
