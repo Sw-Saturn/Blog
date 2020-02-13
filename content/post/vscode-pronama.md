@@ -13,7 +13,7 @@ slug: vscode-pronama-chan
 
 ## はじめに
 
-開発のモチベーションを上げるために、[プロ生ちゃん](https://kei.pronama.jp)をVSCodeに召喚させようと思います。
+開発のモチベーションを上げるために、[プロ生ちゃん](https://kei.pronama.jp)をVS Codeに召喚させようと思います。
 
 元ネタは、[プロ生ちゃん IDE](https://pronama.jp/2016/11/27/pronama-chan-ide-vs2017/)。
 
@@ -54,6 +54,6 @@ slug: vscode-pronama-chan
 
 ## おわりに
 
-簡単にVSCodeのエディタ画面に画像を表示することができました。
+簡単にVS Codeのエディタ画面に画像を表示することができました。
 
 自分で拡張機能を作ってみても楽しいかもしれませんね！
