@@ -6,6 +6,7 @@ hasCJKLanguage = true
 canonifyurls = false
 theme = "robust"
 enableEmoji = true
+copyright = "&copy; 2019 Kanta Demizu"
 
 [Author]
     name = "Kanta Demizu"
@@ -15,9 +16,9 @@ enableEmoji = true
 
 [params]
     # Fonts settings.
-    googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
-    fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
-    logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+    googlefonts = "https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP&display=swap" # Optional, Include google fonts.
+  fontfamily = "Lato, 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif" # Optional, Override body font family.
+  # logofontfamily = "Lobster, cursive" # Optional, Override logo font.
 
 [taxonomies]
     tag = "tags"
