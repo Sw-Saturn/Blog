@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>editor on お気持ち表明</title>
+    <link>https://blog.sw-saturn.dev/tags/editor/</link>
+    <description>Recent content in editor on お気持ち表明</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Feb 2020 19:47:25 +0900</lastBuildDate>
+    
+	<atom:link href="https://blog.sw-saturn.dev/tags/editor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio Codeにプロ生ちゃんを召喚した話</title>
+      <link>https://blog.sw-saturn.dev/2020/02/13/vscode-pronama-chan/</link>
+      <pubDate>Thu, 13 Feb 2020 19:47:25 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/2020/02/13/vscode-pronama-chan/</guid>
+      <description>VSCodeにプロ生ちゃんを召喚します</description>
+    </item>
+    
+  </channel>
+</rss>

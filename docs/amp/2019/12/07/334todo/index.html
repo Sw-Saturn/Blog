@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="theme-color" content="#263238">
 
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.64.1" />
 
 <link rel="apple-touch-icon" href="https://blog.sw-saturn.dev/images/logo.png">
 
@@ -799,6 +799,12 @@
   
   
   
+  .thumb-56638a4922eed1b4b1aa155860ab67a3 {
+    background-image: url(https://blog.sw-saturn.dev/img/pronama/editor.png);
+  }
+  
+  
+  
   .thumb-2a09e0769d63708ff1ddd4bdbd774066 {
     background-image: url(https://blog.sw-saturn.dev/img/rapido/head.png);
   }
@@ -881,17 +887,17 @@
   <div class="toc">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#radrapid-application-development">RAD(Rapid Application Development)とは?</a></li>
-    <li><a href="#heading">本題</a>
+    <li><a href="#radrapid-application-developmentとは">RAD(Rapid Application Development)とは?</a></li>
+    <li><a href="#本題">本題</a>
       <ul>
-        <li><a href="#heading1">コードを書くまでの準備</a></li>
-        <li><a href="#heading2">実際に書いていこう</a></li>
+        <li><a href="#コードを書くまでの準備">コードを書くまでの準備</a></li>
+        <li><a href="#実際に書いていこう">実際に書いていこう</a></li>
       </ul>
     </li>
-    <li><a href="#heading3">おまけ</a></li>
-    <li><a href="#heading4">終わりに</a>
+    <li><a href="#おまけ">おまけ</a></li>
+    <li><a href="#終わりに">終わりに</a>
       <ul>
-        <li><a href="#heading5">参考</a></li>
+        <li><a href="#参考">参考</a></li>
       </ul>
     </li>
   </ul>
@@ -904,16 +910,16 @@
 <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;" src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fadventar.org%2fcalendars%2f4175" width="300" height="150" frameborder="0" scrolling="no"></iframe>
 <p>こんにちは。でみです。</p>
 <p>今回は<a href="https://pub.dev/packages/rapido">Rapido</a>というRADフレームワークを使って、334秒でTODOアプリを作っていきます。</p>
-<h2 id="radrapid-application-development">RAD(Rapid Application Development)とは?</h2>
+<h2 id="radrapid-application-developmentとは">RAD(Rapid Application Development)とは?</h2>
 <p>有名なバンドではなく、ざっとこんな感じ。</p>
 <blockquote>
 <p>Rapid Application Developmentの略。「高速アプリケーション開発」の意味。システム開発の手法の1つ。ユーザーを含む少人数で仕様分析、設計、開発を進め、繰り返し試作品を作成して評価・改良することで完成品に近づけていく。開発期間を短縮し、高品質のシステムを構築できる。</p>
 </blockquote>
 <p>(引用元:<a href="https://www.otsuka-shokai.co.jp/words/rad.html">RAD | IT用語辞典 | 大塚商会</a>)</p>
 <p>要するに、ツールとか使いまくってさくっと作る的な感じですね(間違ってるかも)。</p>
-<h2 id="heading">本題</h2>
+<h2 id="本題">本題</h2>
 <p>開発環境は整っている前提でいきます。</p>
-<h3 id="heading1">コードを書くまでの準備</h3>
+<h3 id="コードを書くまでの準備">コードを書くまでの準備</h3>
 <p>Flutterの新規プロジェクトを作成します。</p>
 <p>pubspec.yamlにrapidoの依存関係を追加。
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dart" data-lang="dart">dependencies:
@@ -923,7 +929,7 @@ JetBrainsな人は上の<code>Packages get</code>を選択して、それ以外�
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Running &#34;flutter pub get&#34; in todo_rad...                           15.7s
 Process finished with exit code 0</code></pre></div>
 こんな感じだったら🆗</p>
-<h3 id="heading2">実際に書いていこう</h3>
+<h3 id="実際に書いていこう">実際に書いていこう</h3>
 <p>main.dartの上に追記。
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dart" data-lang="dart"><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">package:rapido/rapido.dart</span><span style="color:#e6db74">&#39;</span>;</code></pre></div></p>
 <p>あとはこんな感じにDocumentListと入力フィールドとDocumentListScaffoldを作成するだけ。
@@ -950,7 +956,7 @@ labelはデータの項目のようですね。</p>
 <p>この時点で項目の追加・編集・削除など一通り動きます。</p>
 <p>ただ一つだけ謎なのが、一番最後に追加したデータのみ永続化できています。リスト全体ではないんですよね&hellip;</p>
 <p>とりあえずこれで完成ということにしておきます(?)</p>
-<h2 id="heading3">おまけ</h2>
+<h2 id="おまけ">おまけ</h2>
 <p>誕生日だったということでこんなもの作ってみました。</p>
 <p><figure>
     <img src="/img/rapido/birthdayapp.jpg" width="40%"/> <figcaption>
@@ -964,10 +970,10 @@ labelはデータの項目のようですね。</p>
 <p>💩コードは以下のリンクに公開してるのでよかったら見てください。</p>
 
 <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;" src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2fSw-Saturn%2fbirthday-countdown" width="300" height="150" frameborder="0" scrolling="no"></iframe>
-<h2 id="heading4">終わりに</h2>
+<h2 id="終わりに">終わりに</h2>
 <p>rapidoを使って簡単にアプリケーションを作ることができました。</p>
 <p>しっかり使える形にするなら1から作った方が良さそうですが、初心者にはサクッと目に見えて動くものが作れてオススメです。</p>
-<h3 id="heading5">参考</h3>
+<h3 id="参考">参考</h3>
 <p>
 <iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;" src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fgithub.com%2frapido-mobile%2frapido-flutter" width="300" height="150" frameborder="0" scrolling="no"></iframe>
 
@@ -1049,6 +1055,27 @@ labelはデータの項目のようですね。</p>
 
     </div>
     
+    
+    <div class="mcol c6">
+      <header>Next Article</header>
+      <article class="lism">
+  <a href="https://blog.sw-saturn.dev/amp/2020/02/13/vscode-pronama-chan/">
+    <div class="thumb thumb-56638a4922eed1b4b1aa155860ab67a3"></div>
+
+    <div class="inner">
+      <div class="title">Visual Studio Codeにプロ生ちゃんを召喚した話</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="13007-02-13T19:47:25JST">Feb 13, 2020</time></li>
+        <li><i class="fas fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    </div>
     
   </div>
 </div>

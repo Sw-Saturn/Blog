@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="theme-color" content="#263238">
 
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.64.1" />
 
 <link rel="apple-touch-icon" href="https://blog.sw-saturn.dev/images/logo.png">
 
@@ -799,6 +799,12 @@
   
   
   
+  .thumb-56638a4922eed1b4b1aa155860ab67a3 {
+    background-image: url(https://blog.sw-saturn.dev/img/pronama/editor.png);
+  }
+  
+  
+  
   .thumb-2a09e0769d63708ff1ddd4bdbd774066 {
     background-image: url(https://blog.sw-saturn.dev/img/rapido/head.png);
   }
@@ -883,7 +889,7 @@
 <div>
     <a class="twitter-timeline" width="70%" href="https://twitter.com/dmz_ai?ref_src=twsrc%5Etfw" data-height="1000">Tweets by dmz_ai</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
-<h3 id="heading">作ろうと思った経緯</h3>
+<h3 id="作ろうと思った経緯">作ろうと思った経緯</h3>
 <p>　今年の10月下旬ごろに開催された高専プロコンに参加してきました．例年，高専プロコンが終わったらTLが賑やかになるんですよね．
 そしてTLのプロたちを眺めていたらこんなものが飛び込んできました．</p>
 
@@ -891,19 +897,19 @@
 <p>はいプロ．
 プロです．</p>
 <p>ということで私も作ってみました(便乗)．</p>
-<h2 id="heading1">中身</h2>
+<h2 id="中身">中身</h2>
 <p>簡単にいうと，自分のTLの発言を200Post取得して，<a href="http://taku910.github.io/mecab/">MeCab</a>で形態素解析する．</p>
 <p>形態素解析した語彙を単語ごとに分割して3つ組に分けてSQLiteデータベースにぶちこむ．
 マルコフ連鎖で文章生成して，Twitterに投稿する．的な流れです．</p>
 <p>ちなみに，MeCabのPythonバインディングを使用してPythonでプログラム構成，VPSでcronを使って定期的にツイートしています．また，毎回新規学習はしないです．学習したくなったタイミングで語彙のアップデートができます．</p>
-<h2 id="heading2">総評</h2>
+<h2 id="総評">総評</h2>
 <ul>
 <li>なんか動いてはいるものの，ベースの文章がガバガバなのでアレ</li>
 <li>自分本体の語彙力データベースを更新するべきだなー</li>
 <li>プロになりたい</li>
 </ul>
 <p>そのうちまた機能追加していい感じにしていきたいですね．</p>
-<h3 id="2019-feb05">追記@2019 Feb.05</h3>
+<h3 id="追記2019-feb05">追記@2019 Feb.05</h3>
 <p>適当にリプを送ると返答してくれるようになったよ！
 やったね！</p>
 <p><del>送りまくるとAPI制限引っかかると思うよ</del></p>
