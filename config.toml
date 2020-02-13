@@ -14,11 +14,11 @@ copyright = "&copy; 2019 Kanta Demizu"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-# [params]
-#     # Fonts settings.
-#     googlefonts = "https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP&display=swap" # Optional, Include google fonts.
-#     fontfamily = "Lato, 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif" # Optional, Override body font family.
-#     logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+[params]
+    # Fonts settings.
+    googlefonts = "https://fonts.googleapis.com/css?family=Lato|Noto+Sans+JP&display=swap" # Optional, Include google fonts.
+    fontfamily = "Lato, 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif" # Optional, Override body font family.
+    logofontfamily = "Lobster, cursive" # Optional, Override logo font.
 
 [taxonomies]
     tag = "tags"
