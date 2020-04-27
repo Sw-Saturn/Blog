@@ -7,7 +7,7 @@ summary: "VSCodeにプロ生ちゃんを召喚します"
 tags: ['開発','editor','vscode']
 share: true
 toc: true
-thumbnail: "/img/pronama/editor.png"
+thumbnail: "/img/thumbnail/vscode-pronama.png"
 slug: vscode-pronama-chan
 ---
 

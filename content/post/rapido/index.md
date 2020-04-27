@@ -7,7 +7,7 @@ summary: "334秒でアプリ開発"
 tags: ['開発','rapido','flutter']
 share: true
 toc: true
-thumbnail: "/img/rapido/head.png"
+thumbnail: "/img/thumbnail/rapido.png"
 slug: "334todo"
 ---
 

@@ -24,7 +24,7 @@ copyright = "&copy; 2019 Kanta Demizu"
     tag = "tags"
 
 [params.author]
-  thumbnail = "/img/author.png"
+  thumbnail = "https://avatars.githubusercontent.com/Sw-Saturn"
   name = "Kanta Demizu"
   description = "<center>プロフィールは<a href='https://sw-saturn.dev'>こちら</a>。</center>"
 
