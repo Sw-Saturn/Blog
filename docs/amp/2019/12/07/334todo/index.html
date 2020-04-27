@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <meta name="theme-color" content="#263238">
 
-<meta name="generator" content="Hugo 0.64.1" />
+<meta name="generator" content="Hugo 0.69.2" />
 
 <link rel="apple-touch-icon" href="https://blog.sw-saturn.dev/img/apple-touch-icon.png">
 <link rel="shortcut icon" type="image/x-icon" href="https://blog.sw-saturn.dev/favicon.ico">
@@ -487,6 +487,8 @@ article.sn > .article-body blockquote p {
 
 article.sn > .article-body figure {
   margin: 1.5rem 0;
+  display: block;
+  text-align:center;
 }
 
 article.sn > .article-body img,
@@ -497,7 +499,7 @@ article.sn > .article-body figure amp-img {
 }
 
 article.sn > .article-body figcaption {
-  color: #cfd8dc;
+  color: #a9a9a9;
   font-size: .8rem;
   font-weight: 700;
   margin-top: .5rem;
@@ -613,7 +615,7 @@ section.footer > header a {
 /* Parts:breadcrumb */
 .crumb ol {
   text-overflow: ellipsis;
-  color: #cfd8dc;
+  color: #a9a9a9;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -633,7 +635,7 @@ section.footer > header a {
 }
 
 .crumb a {
-  color: #cfd8dc;
+  color: #a9a9a9;
 }
 
 .crumb i {
@@ -783,19 +785,19 @@ section.footer > header a {
 
 
 
-.thumb-56638a4922eed1b4b1aa155860ab67a3 {
+.thumb-cc5c4d1f6b0c62fea8f7b0e8aa9dea67 {
   background-image: url(https://blog.sw-saturn.dev/img/pronama/editor.png);
 }
 
 
 
-.thumb-2a09e0769d63708ff1ddd4bdbd774066 {
+.thumb-518e95e7f03e90bba020be619fcc0f4e {
   background-image: url(https://blog.sw-saturn.dev/img/rapido/head.png);
 }
 
 
 
-.thumb-d31cf1491ee1327588bb40da6b49601b {
+.thumb-2dd5e8f6b2cb005690fb84144f0ac967 {
   background-image: url(https://pbs.twimg.com/media/EKylTK-U8AI8l3_?format=jpg&name=large);
 }
 
@@ -845,7 +847,7 @@ section.footer > header a {
         
 <article class="sn">
 
-  <div class="thumb thumb-2a09e0769d63708ff1ddd4bdbd774066"></div>
+  <div class="thumb thumb-518e95e7f03e90bba020be619fcc0f4e"></div>
 
   <header class="article-header">
     <h1 class="title">Rapidoを使って334秒でTODOアプリを作る話</h1>
@@ -915,11 +917,11 @@ Process finished with exit code 0</code></pre></div>
 こんな感じだったら🆗</p>
 <h3 id="実際に書いていこう">実際に書いていこう</h3>
 <p>main.dartの上に追記。
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dart" data-lang="dart"><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">package:rapido/rapido.dart</span><span style="color:#e6db74">&#39;</span>;</code></pre></div></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dart" data-lang="dart"><span style="color:#66d9ef">import</span> <span style="color:#e6db74">&#39;package:rapido/rapido.dart&#39;</span>;</code></pre></div></p>
 <p>あとはこんな感じにDocumentListと入力フィールドとDocumentListScaffoldを作成するだけ。
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dart" data-lang="dart"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">_MyHomePageState</span> <span style="color:#66d9ef">extends</span> State<span style="color:#f92672">&lt;</span>MyHomePage<span style="color:#f92672">&gt;</span> {
-  DocumentList taskslist <span style="color:#f92672">=</span> DocumentList(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Tarea</span><span style="color:#e6db74">&#34;</span>,
-      labels: {<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Date</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">date</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Task</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">task</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Priority</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">pri count</span><span style="color:#e6db74">&#34;</span>});
+  DocumentList taskslist <span style="color:#f92672">=</span> DocumentList(<span style="color:#e6db74">&#34;Tarea&#34;</span>,
+      labels: {<span style="color:#e6db74">&#34;Date&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;date&#34;</span>, <span style="color:#e6db74">&#34;Task&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;task&#34;</span>, <span style="color:#e6db74">&#34;Priority&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;pri count&#34;</span>});
 
   <span style="color:#960050;background-color:#1e0010">@</span>override
   Widget build(BuildContext context) {
@@ -928,13 +930,29 @@ Process finished with exit code 0</code></pre></div>
 labelはデータの項目のようですね。</p>
 <p>labelを設定する時に、dateやlatlongを指定すると、それぞれDatePicker、LocationPickerが使えるようです。便利。</p>
 <p>さて、ここまでできたらビルドしてみましょう。</p>
-<p><figure class="inline">
-    <img src="/img/rapido/todo_1.png" width="40%"/> 
-</figure>
+<p>
 
-<figure class="inline">
-    <img src="/img/rapido/todo_2.png" width="40%"/> 
-</figure>
+
+
+    
+    <figure>
+    <a href="/2019/12/07/334todo/todo_1.png">
+    <img src="/2019/12/07/334todo/todo_1_hue1619dd859c870e765e5d839b3a6f523_121306_500x0_resize_q90_box_2.png" width="40%" alt="todo_1.png">
+    </a>
+    
+    </figure>
+
+
+
+
+
+    
+    <figure>
+    <a href="/2019/12/07/334todo/todo_2.png">
+    <img src="/2019/12/07/334todo/todo_2_hude1729a0766b0e98055e6a6b813f9122_120258_500x0_resize_q90_box_2.png" width="40%" alt="todo_2.png">
+    </a>
+    
+    </figure>
 </p>
 <p>いい感じになってる。</p>
 <p>この時点で項目の追加・編集・削除など一通り動きます。</p>
@@ -942,11 +960,21 @@ labelはデータの項目のようですね。</p>
 <p>とりあえずこれで完成ということにしておきます(?)</p>
 <h2 id="おまけ">おまけ</h2>
 <p>誕生日だったということでこんなもの作ってみました。</p>
-<p><figure>
-    <img src="/img/rapido/birthdayapp.jpg" width="40%"/> <figcaption>
-            <h4>プライマリーカラーに阪神は関係ありません</h4>
-        </figcaption>
-</figure>
+<p>
+
+
+
+    
+    <figure>
+    <a href="/2019/12/07/334todo/birthdayapp.jpg">
+    <img src="/2019/12/07/334todo/birthdayapp_hu7994889b772782de2dfc40a771e17901_144275_500x0_resize_q90_box.jpg" width="40%" alt="birthdayapp.jpg">
+    </a>
+    
+    <figcaption>
+        <h4>プライマリーカラーに阪神は関係ありません</h4>
+    </figcaption>
+    
+    </figure>
 
 <code>DocumantListScaffold()</code>の引数に<code>customItemBuilder</code>を設定すると、普段通りにWidgetをを設定できます。
 年齢の表示とか、残り日数に応じてカードの色を変えてみました。</p>
@@ -1022,7 +1050,7 @@ labelはデータの項目のようですね。</p>
       <header>Previous Article</header>
       <article class="lism">
   <a href="https://blog.sw-saturn.dev/amp/2019/12/03/grewold/">
-    <div class="thumb thumb-d31cf1491ee1327588bb40da6b49601b"></div>
+    <div class="thumb thumb-2dd5e8f6b2cb005690fb84144f0ac967"></div>
 
     <div class="inner">
       <div class="title">年をとった話</div>
@@ -1044,7 +1072,7 @@ labelはデータの項目のようですね。</p>
       <header>Next Article</header>
       <article class="lism">
   <a href="https://blog.sw-saturn.dev/amp/2020/02/13/vscode-pronama-chan/">
-    <div class="thumb thumb-56638a4922eed1b4b1aa155860ab67a3"></div>
+    <div class="thumb thumb-cc5c4d1f6b0c62fea8f7b0e8aa9dea67"></div>
 
     <div class="inner">
       <div class="title">Visual Studio Codeにプロ生ちゃんを召喚した話</div>

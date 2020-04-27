@@ -1,0 +1,16 @@
+{{ $src := .Get "src" }}
+{{ $original := .Page.Resources.GetMatch $src }}
+{{ $caption := .Get "title"}}
+{{ if $original }}
+    {{ $resized := $original.Resize "500x q90"}}
+    <figure>
+    <a href="{{ $original.RelPermalink }}">
+    <img src="{{ $resized.RelPermalink }}" width="{{.Get "width" }}" alt="{{ $src }}">
+    </a>
+    {{ if $caption }}
+    <figcaption>
+        <h4>{{$caption}}</h4>
+    </figcaption>
+    {{ end }}
+    </figure>
+{{ end }}

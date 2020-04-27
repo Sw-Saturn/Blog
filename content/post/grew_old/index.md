@@ -86,7 +86,7 @@ slug: "grewold"
 18切符やら飛行機やらでいろいろ行った。
 北は北海道から南はマレーシアまで。
 
-{{< figure src="/img/2019-12-03-08_31_16.jpg" width="30%"  title="沖縄ごめん">}}
+{{< thumbnail src="swarm.jpg" width="30%" title="沖縄ごめん">}}
 
 ちなみに京都のおすすめスポットは神戸です。
 

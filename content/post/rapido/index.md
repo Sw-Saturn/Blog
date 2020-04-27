@@ -71,8 +71,8 @@ labelを設定する時に、dateやlatlongを指定すると、それぞれDate
 
 さて、ここまでできたらビルドしてみましょう。
 
-{{< figure src="/img/rapido/todo_1.png" width="40%" class="inline">}}
-{{< figure src="/img/rapido/todo_2.png" width="40%" class="inline">}}
+{{< thumbnail src="todo_1.png" width="40%">}}
+{{< thumbnail src="todo_2.png" width="40%">}}
 
 いい感じになってる。
 
@@ -85,7 +85,7 @@ labelを設定する時に、dateやlatlongを指定すると、それぞれDate
 ## おまけ
 誕生日だったということでこんなもの作ってみました。
 
-{{< figure src="/img/rapido/birthdayapp.jpg" width="40%" title="プライマリーカラーに阪神は関係ありません">}}
+{{< thumbnail src="birthdayapp.jpg" width="40%" title="プライマリーカラーに阪神は関係ありません">}}
 `DocumantListScaffold()`の引数に`customItemBuilder`を設定すると、普段通りにWidgetをを設定できます。
 年齢の表示とか、残り日数に応じてカードの色を変えてみました。
 

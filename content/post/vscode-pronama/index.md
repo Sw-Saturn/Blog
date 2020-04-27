@@ -50,7 +50,7 @@ slug: vscode-pronama-chan
 ファイルを開くと、プロ生ちゃんが現れていると思います。
 [APNG](https://developer.mozilla.org/ja/docs/Animated_PNG_graphics)なので目がパチパチしてかわいい！
 
-{{< figure src="/img/pronama/editor.png" width="100%" class="inline">}}
+{{< thumbnail src="editor.png" width="90%" title="かわいい！">}}
 
 ## おわりに
 
