@@ -6,7 +6,7 @@ hasCJKLanguage = true
 canonifyurls = false
 theme = "robust"
 enableEmoji = true
-copyright = "&copy; 2019 Kanta Demizu"
+copyright = "&copy; 2020 Kanta Demizu"
 
 [Author]
     name = "Kanta Demizu"
