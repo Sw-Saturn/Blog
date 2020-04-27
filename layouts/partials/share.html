@@ -1,0 +1,8 @@
+{{ $shareText :=  printf "%s - %s" $.Title $.Site.Title }}
+<aside class="share">
+  <a href="https://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}&title={{ $shareText }}" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ $shareText  }}&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}&t={{ $shareText }}" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://getpocket.com/edit?url={{ .Permalink }}&title={{ $shareText }}" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fab fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="https://social-plugins.line.me/lineit/share?url={{ .Permalink }}" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"><i class="fab fa-line" aria-hidden="true"></i></a>
+</aside>
