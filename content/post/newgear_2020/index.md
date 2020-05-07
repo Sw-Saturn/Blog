@@ -7,6 +7,7 @@ summary: "最近買った諸々について"
 tags: ["カメラ"]
 share: true
 toc: true
+thumbnail: "/img/thumbnail/newgear2020.jpg"
 slug: newgear_2020
 ---
 
