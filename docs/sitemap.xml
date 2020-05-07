@@ -3,17 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.sw-saturn.dev/tags/editor/</loc>
-    <lastmod>2020-02-13T19:47:25+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.sw-saturn.dev/post/</loc>
-    <lastmod>2020-02-13T19:47:25+09:00</lastmod>
+    <lastmod>2020-05-07T20:05:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.sw-saturn.dev/tags/</loc>
+    <lastmod>2020-05-07T20:05:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/</loc>
+    <lastmod>2020-05-07T20:05:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/tags/%E3%82%AB%E3%83%A1%E3%83%A9/</loc>
+    <lastmod>2020-05-07T20:05:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/2020/05/07/newgear_2020/</loc>
+    <lastmod>2020-05-07T20:05:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/tags/editor/</loc>
     <lastmod>2020-02-13T19:47:25+09:00</lastmod>
   </url>
   
@@ -24,11 +39,6 @@
   
   <url>
     <loc>https://blog.sw-saturn.dev/tags/vscode/</loc>
-    <lastmod>2020-02-13T19:47:25+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.sw-saturn.dev/</loc>
     <lastmod>2020-02-13T19:47:25+09:00</lastmod>
   </url>
   
