@@ -36,7 +36,7 @@ slug: newgear_2020
 
 ### その他
 
-- [Amazon Echo Dot](https://www.amazon.co.jp/dp/B07PHPYPYK)
+- [Amazon Echo Dot](https://www.amazon.co.jp/dp/B07PHPYPYK) 家で全然喋らないオタクだからただのアラームと化してる
 - [Xiaomi Mi Smart Band 4](https://www.mi.com/jp/mi-smart-band-4/)
 
 ざっとこんなもんですね。今回は撮影機材について書こうかと。
@@ -67,6 +67,7 @@ slug: newgear_2020
 あとはどのメーカーのカメラにするか。
 
 フィルムシミュレーションが凄いとのことで、前々からFUJIFILMのカメラが気になっていたためFUJIFILMに決定。
+弊学の先生の影響もちょっとある。
 JPEG撮って出しが良ければ現像の手間も省けそうだしね。
 
 ### X100FかX-E3か
