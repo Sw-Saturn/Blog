@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 でみ</copyright>
-    <lastBuildDate>Thu, 07 May 2020 20:05:01 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2020 19:35:01 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.sw-saturn.dev/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Luminar 3を導入した話</title>
+      <link>https://blog.sw-saturn.dev/2020/05/12/luminar3/</link>
+      <pubDate>Tue, 12 May 2020 19:35:01 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/2020/05/12/luminar3/</guid>
+      <description>結局こうなった</description>
+    </item>
     
     <item>
       <title>最近買ったものを振り返ってみる</title>
