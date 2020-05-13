@@ -29,6 +29,14 @@ slug: luminar3
 ~~一眼買ってRAW現像せんやつおる？
 おらんやろ〜〜〜〜〜〜〜~~
 
+現像してみたやつがこちら。
+
+{{< thumbnail src="DSCF4988.jpeg" width="60%" >}}
+{{< thumbnail src="DSCF5001.jpeg" width="60%" >}}
+{{< thumbnail src="DSCF5008.jpeg" width="60%" >}}
+
+ええやん！
+
 いい感じの写真量産していきたい。
 
 ---
