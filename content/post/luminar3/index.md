@@ -7,7 +7,7 @@ summary: "結局こうなった"
 tags: ["カメラ"]
 share: true
 toc: true
-thumbnail: ""
+thumbnail: "/img/thumbnail/luminar.jpg"
 slug: luminar3
 ---
 
