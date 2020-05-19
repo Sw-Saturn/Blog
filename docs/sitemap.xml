@@ -3,22 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.sw-saturn.dev/2020/05/12/luminar3/</loc>
-    <lastmod>2020-05-12T19:35:01+09:00</lastmod>
+    <loc>https://blog.sw-saturn.dev/post/</loc>
+    <lastmod>2020-05-19T12:20:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.sw-saturn.dev/post/</loc>
-    <lastmod>2020-05-12T19:35:01+09:00</lastmod>
+    <loc>https://blog.sw-saturn.dev/tags/raspberry-pi/</loc>
+    <lastmod>2020-05-19T12:20:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/2020/05/19/naspi/</loc>
+    <lastmod>2020-05-19T12:20:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.sw-saturn.dev/tags/</loc>
-    <lastmod>2020-05-12T19:35:01+09:00</lastmod>
+    <lastmod>2020-05-19T12:20:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.sw-saturn.dev/</loc>
+    <lastmod>2020-05-19T12:20:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/2020/05/12/luminar3/</loc>
     <lastmod>2020-05-12T19:35:01+09:00</lastmod>
   </url>
   

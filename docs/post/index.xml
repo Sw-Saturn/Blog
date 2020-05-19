@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 でみ</copyright>
-    <lastBuildDate>Tue, 12 May 2020 19:35:01 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 12:20:00 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.sw-saturn.dev/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry PiをNAS化した</title>
+      <link>https://blog.sw-saturn.dev/2020/05/19/naspi/</link>
+      <pubDate>Tue, 19 May 2020 12:20:00 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/2020/05/19/naspi/</guid>
+      <description>便利やね</description>
+    </item>
     
     <item>
       <title>Luminar 3を導入した話</title>
