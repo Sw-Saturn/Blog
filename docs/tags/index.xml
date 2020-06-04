@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 でみ</copyright>
-    <lastBuildDate>Tue, 19 May 2020 12:20:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 03:34:00 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.sw-saturn.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>flutter</title>
+      <link>https://blog.sw-saturn.dev/tags/flutter/</link>
+      <pubDate>Thu, 04 Jun 2020 03:34:00 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>glide</title>
+      <link>https://blog.sw-saturn.dev/tags/glide/</link>
+      <pubDate>Thu, 04 Jun 2020 03:34:00 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/tags/glide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>開発</title>
+      <link>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</link>
+      <pubDate>Thu, 04 Jun 2020 03:34:00 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Raspberry Pi</title>
@@ -45,24 +72,6 @@
       <pubDate>Thu, 13 Feb 2020 19:47:25 +0900</pubDate>
       
       <guid>https://blog.sw-saturn.dev/tags/vscode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>開発</title>
-      <link>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</link>
-      <pubDate>Thu, 13 Feb 2020 19:47:25 +0900</pubDate>
-      
-      <guid>https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>flutter</title>
-      <link>https://blog.sw-saturn.dev/tags/flutter/</link>
-      <pubDate>Sat, 07 Dec 2019 21:27:14 +0900</pubDate>
-      
-      <guid>https://blog.sw-saturn.dev/tags/flutter/</guid>
       <description></description>
     </item>
     

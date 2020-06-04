@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="theme-color" content="#263238">
+
+<meta name="generator" content="Hugo 0.72.0" />
+
+<link rel="apple-touch-icon" href="https://blog.sw-saturn.dev/img/apple-touch-icon.png">
+<link rel="shortcut icon" type="image/x-icon" href="https://blog.sw-saturn.dev/favicon.ico">
+
+
+<link rel="canonical" type="text/html" href="https://blog.sw-saturn.dev/2020/06/04/334todo_glide/" title="お気持ち表明">
+
+
+
+
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato%7cNoto&#43;Sans&#43;JP&amp;display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>Glideを使って334秒でTODOアプリを作る話 - お気持ち表明</title>
+    
+<meta name="description" content="334秒でアプリ開発">
+
+<meta property="og:title" content="Glideを使って334秒でTODOアプリを作る話 - お気持ち表明">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.sw-saturn.dev/amp/2020/06/04/334todo_glide/">
+<meta property="og:image" content="https://blog.sw-saturn.dev/img/thumbnail/screen.png">
+<meta property="og:site_name" content="お気持ち表明">
+<meta property="og:description" content="334秒でアプリ開発">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="お気持ち表明">
+<meta name="twitter:url" content="https://blog.sw-saturn.dev/amp/2020/06/04/334todo_glide/">
+<meta name="twitter:title" content="Glideを使って334秒でTODOアプリを作る話 - お気持ち表明">
+<meta name="twitter:description" content="334秒でアプリ開発">
+<meta name="twitter:image" content="https://blog.sw-saturn.dev/img/thumbnail/screen.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/blog.sw-saturn.dev\/"
+    },
+    "headline": "Glideを使って334秒でTODOアプリを作る話-お気持ち表明",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/blog.sw-saturn.dev\/img\/thumbnail\/screen.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2020-06-04T03:34:00JST",
+    "dateModified": "2020-06-04T03:34:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "お気持ち表明"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "お気持ち表明",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/blog.sw-saturn.dev\/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "334秒でアプリ開発"
+  }
+</script>
+
+
+    <style amp-custom>
+html {
+  font-size: 18px;
+  background-color: rgba(236,239,241,.5);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+body {
+  color: #333;
+  font-family: 'Roboto Slab','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,sans-serif;
+  font-feature-settings : "palt";
+  font-size: inherit;
+  line-height: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1rem;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dashed #cfd8dc;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1rem;
+}
+
+a {
+  color: #2196f3;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+}
+
+th, td {
+  font-size: .8rem;
+  padding: .5rem;
+}
+
+tr {
+  border-bottom: 1px dashed #ddd;
+}
+
+/* Layouts */
+main,
+aside {
+  display: block;
+}
+
+main { padding: 1rem 0 3rem 0; }
+aside.h { padding: 3rem 0; }
+
+main.f,
+aside.f {
+  background-color: #333;
+  border-top: 2px dashed #fff;
+  border-bottom: 2px dashed #fff;
+}
+
+.l-container {
+  position: relative;
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.l-container.thin {
+  max-width: 44rem;
+}
+
+.l-header {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.l-header .description {
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+
+.l-footer {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  font-size: .6rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .l-sidebar {
+    margin-top: 4rem;
+  }
+}
+
+.mrow {
+  margin: 0 -1rem;
+  overflow: hidden;
+}
+
+.mcol {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 1rem;
+}
+
+.c6 { width: 50%; }
+.c4 { width: 33.26323833%; }
+.c8 { width: 66.66666%; }
+
+@media (max-width: 768px) {
+  .mcol {
+    width: 100%;
+    float: none;
+  }
+}
+
+.logo a {
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.articles {
+  margin: -1rem 0;
+  margin-bottom: 1rem;
+}
+
+.articles.sm {
+  margin: -.5rem 0;
+  margin-bottom: 0;
+}
+
+article {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+article.li {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  height: 20rem;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+article.li > a {
+  display: block;
+  color: #333;
+}
+
+article.li .inner {
+  padding: 1rem;
+}
+
+article.li .thumb {
+  height: 8rem;
+}
+
+article.li .title {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+article.li .summary {
+  font-size: .8rem;
+  height: 6rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+article.li .summary::after {
+  content: '...';
+}
+
+article.lism {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  margin: .5rem 0;
+}
+
+article.lism::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+article.lism > a {
+  display: block;
+  color: #333;
+}
+
+article.lism .inner {
+  display: table-cell;
+  vertical-align: middle;
+  height: 5rem;
+  padding: 0 .75rem;
+}
+
+article.lism .thumb {
+  width: 5rem;
+  height: 5rem;
+  float: left;
+}
+
+article.lism .title {
+  font-weight: 700;
+  font-size: .8rem;
+  margin-bottom: .25rem;
+}
+
+article.sn {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  margin-bottom: 1rem;
+}
+
+article.sn .thumb {
+  height: 20rem;
+}
+
+@media (max-width: 768px) {
+  article.sn .thumb {
+    height: 10rem;
+  }
+}
+
+article.sn > .article-header,
+article.sn > .article-body,
+article.sn .article-footer {
+  padding: 2rem;
+}
+
+article.sn > .article-body {
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-header,
+  article.sn > .article-body,
+  article.sn .article-footer {
+    padding: 1rem;
+  }
+
+  article.sn > .article-body {
+    padding: 0 1rem;
+  }
+}
+
+article.sn > .article-header .title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-header .title {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+  }
+}
+
+article.sn > .article-header .facts {
+  margin-bottom: 1rem;
+}
+
+article.sn > .article-body {
+  margin-bottom: 1.5rem;
+}
+
+article.sn > .article-body h2 {
+  border-bottom: .25rem solid #333;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  padding: .5rem 0;
+}
+
+article.sn > .article-body h3 {
+  border-left: .5rem solid #333;
+  line-height: 1.5rem;
+  margin: 1.5rem 0;
+  padding: .125rem .5rem;
+}
+
+article.sn > .article-body ul,
+article.sn > .article-body ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+article.sn > .article-body li {
+  padding-bottom: .5rem;
+  line-height: 1.5rem;
+}
+
+article.sn > .article-body li:last-child {
+  padding-bottom: 0;
+}
+article.sn > .article-body p {
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+article.sn > .article-body strong,
+article.sn > .article-body em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+article.sn > .article-body strong {
+  box-shadow: 0 -.5rem 0 0 #ffc107 inset;
+}
+
+article.sn > .article-body em {
+  color: #8bc34a;
+}
+
+article.sn > .article-body code,
+article.sn > .article-body pre {
+  font-family: Menlo, Consolas, monospace;
+  font-size: .7rem;
+}
+
+article.sn > .article-body pre {
+  background-color: #333;
+  color: #fff;
+  line-height: 1rem;
+  margin: 1.5rem -2rem;
+  overflow: auto;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-body pre {
+    margin: 1.5rem -1rem;
+  }
+}
+
+article.sn > .article-body pre > code {
+  display: block;
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-body pre > code {
+    padding: 1rem;
+  }
+}
+
+article.sn > .article-body p code {
+  background-color: #eceff1;
+  color: #333;
+  border-radius: 4px;
+  margin: 0 .25rem;
+  padding: .375rem;
+  white-space: nowrap;
+}
+
+article.sn > .article-body blockquote {
+  position: relative;
+  border-left: .25rem solid #333;
+  font-size: .8rem;
+  padding: .125rem 1rem;
+  margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+  article.sn > .article-body blockquote {
+    font-size: 1rem;
+  }
+}
+
+article.sn > .article-body blockquote p {
+  margin: .5rem 0;
+  line-height: 1rem;
+}
+
+article.sn > .article-body figure {
+  margin: 1.5rem 0;
+  display: block;
+  text-align:center;
+}
+
+article.sn > .article-body img,
+article.sn > .article-body figure img,
+article.sn > .article-body figure amp-img {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  max-width: 100%;
+}
+
+article.sn > .article-body figcaption {
+  color: #a9a9a9;
+  font-size: .8rem;
+  font-weight: 700;
+  margin-top: .5rem;
+}
+
+.facts li {
+  display: inline;
+  font-size: .8rem;
+  margin-right: 1rem;
+}
+
+.facts i {
+  color: #cfd8dc;
+  margin-right: .5em;
+}
+
+.facts.sm li {
+  font-size: .7rem;
+}
+
+.sections.sidebar {
+  margin: -1rem 0;
+}
+
+.sections.footer {
+  margin: -1rem 0;
+}
+
+section.sidebar {
+  margin: 2rem 0;
+}
+
+section.sidebar > header {
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+section.footer {
+  margin: 1rem 0;
+}
+
+section.footer > header {
+  font-size: .8rem;
+  margin: .5rem 0;
+}
+
+section.footer > header::before {
+  content: "- ";
+}
+
+section.footer > header a {
+  font-weight: 700;
+  color: #333;
+  text-decoration: underline;
+}
+
+.terms {
+  margin: -.25rem;
+}
+
+.terms li {
+  display: inline-block;
+}
+
+.terms a {
+  display: block;
+  float: left;
+  background-color: #333;
+  border-radius: 4px;
+  color: #fff;
+  font-size: .7rem;
+  margin: .25rem;
+  padding: 0 .75rem;
+  line-height: 1.75rem;
+}
+
+.paging {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.paging a {
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  border-radius: 4px;
+  color: #333;
+  padding: 0 1rem;
+  line-height: 3rem;
+}
+
+.page-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.page-title::after {
+  content: '';
+  display: block;
+  border-bottom: .25rem solid #333;
+  width: 3rem;
+  margin: 1.5rem auto;
+}
+
+.page-title > .title {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/* Parts:breadcrumb */
+.crumb ol {
+  text-overflow: ellipsis;
+  color: #a9a9a9;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.crumb li {
+  display: inline;
+  font-size: .8rem;
+}
+
+.crumb li::after {
+  content: '›';
+  margin: 0 .25rem 0 .5rem;
+}
+
+.crumb li:last-child::after {
+  content: '';
+}
+
+.crumb a {
+  color: #a9a9a9;
+}
+
+.crumb i {
+  margin-right: .5em;
+}
+
+.share {
+  padding: 0;
+}
+
+.share a {
+  display: inline-block;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  min-width: 1rem;
+  height: 2rem;
+  border-radius: 4px;
+  color: #333;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-align: center;
+  padding: 0 .5rem;
+}
+
+.adj article.lism {
+  margin-bottom: 1rem;
+}
+
+.adj header {
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+.toc {
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .toc {
+    padding: 0 1rem;
+  }
+}
+
+.toc {
+  margin: 1rem 0;
+}
+
+.toc nav>ul {
+  background-color: #eceff1;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: .8rem;
+  padding: .5rem 1rem;
+  word-break: break-all;
+  list-style: none;
+}
+
+.toc ul {
+  padding: 0;
+}
+
+.toc ul ul {
+  padding-left: 1rem;
+}
+
+.toc ul ul ul {
+  padding-left: 1rem;
+}
+
+.toc li {
+  color: #90a4ae;
+}
+
+.toc ul ul>li {
+  font-weight: 700;
+  margin: .5rem 0;
+  list-style-type: decimal;
+}
+
+.toc ul ul ul>li {
+  list-style-type: disc;
+  font-weight: 500;
+}
+
+.author {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(63,63,68,.05), 0 1px 3px rgba(63,63,68,.1), 0 1px 2px rgba(0,0,0,.05);
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.author .author-thumb {
+  margin: 0 auto 1rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: #eceff1;
+  background-size: cover;
+  background-position: center;
+}
+
+.author .author-name {
+  margin-bottom: .5rem;
+  font-weight: 700;
+}
+
+.author .author-facts {
+  margin-bottom: 1rem;
+}
+
+.author .author-facts li {
+  display: inline;
+}
+
+.author .author-facts li a {
+  display: inline-block;
+  background-color: #eceff1;
+  width: 1.75rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: #333;
+  font-size: .8rem;
+  border-radius: 2px;
+}
+
+.author .author-facts li a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.author .author-description {
+  text-align: left;
+  font-size: .8rem;
+}
+
+.author .author-description p {
+  margin: .5rem 0;
+}
+
+.thumb {
+  background-image: url(https://blog.sw-saturn.dev/images/default.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.thumb-ead31f045f7d10dc13a1f583e79b4d26 {
+  background-image: url(https://blog.sw-saturn.dev/img/thumbnail/screen.png);
+}
+
+
+
+.thumb-44ea5e1795d089d8cde5426e5fc85fd5 {
+  background-image: url(https://blog.foto.ne.jp/free/images/fd400158_w420.jpg);
+}
+
+
+
+.thumb-968a48f0b47cf7e7c10cb3d1951d5ce4 {
+  background-image: url(https://blog.sw-saturn.dev/img/thumbnail/luminar.jpg);
+}
+
+
+
+.thumb-6be9adbd8b2883501786cc0cf1db6b53 {
+  background-image: url(https://blog.sw-saturn.dev/img/thumbnail/newgear2020.jpg);
+}
+
+
+
+.thumb-cc5c4d1f6b0c62fea8f7b0e8aa9dea67 {
+  background-image: url(https://blog.sw-saturn.dev/img/thumbnail/vscode-pronama.png);
+}
+
+
+
+.thumb-518e95e7f03e90bba020be619fcc0f4e {
+  background-image: url(https://blog.sw-saturn.dev/img/thumbnail/rapido.png);
+}
+
+
+
+.thumb-2dd5e8f6b2cb005690fb84144f0ac967 {
+  background-image: url(https://pbs.twimg.com/media/EKylTK-U8AI8l3_?format=jpg&name=large);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body { font-family: Lato, 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', Meiryo, sans-serif; } 
+ .h-logo { font-family: Lobster, cursive; } 
+.l-container { max-width: 40rem; margin: 0 auto; }
+    </style>
+  </head>
+
+  <body>
+    
+
+    <header class="l-header">
+      <div class="l-container">
+        <div class="logo">
+          <a href="https://blog.sw-saturn.dev/">お気持ち表明</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="l-container">
+        
+<article class="sn">
+
+  <div class="thumb thumb-ead31f045f7d10dc13a1f583e79b4d26"></div>
+
+  <header class="article-header">
+    <h1 class="title">Glideを使って334秒でTODOアプリを作る話</h1>
+
+    <ul class="facts">
+      <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="2020-06-04T03:34:00JST">Jun 4, 2020</time></li>
+      
+      <li><i class="fas fa-bookmark" aria-hidden="true"></i><a href="https://blog.sw-saturn.dev/post/">POST</a></li>
+      
+    </ul>
+
+    
+<aside class="share">
+  <a href="https://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&title=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&text=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&t=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://getpocket.com/edit?url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&title=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fab fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"><i class="fab fa-line" aria-hidden="true"></i></a>
+</aside>
+
+  </header>
+
+  
+  <div class="toc">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#本題">本題</a>
+      <ul>
+        <li><a href="#準備">準備</a></li>
+        <li><a href="#作っていこう">作っていこう</a></li>
+      </ul>
+    </li>
+    <li><a href="#終わりに">終わりに</a></li>
+  </ul>
+</nav>
+  </div>
+  
+
+  <div class="article-body"><p>こんにちは。でみです。</p>
+<p>今回はGlide<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>というRADフレームワークを使って、334秒でTODOアプリを作っていきます。</p>
+<h2 id="本題">本題</h2>
+<p>やっていきましょう。</p>
+<h3 id="準備">準備</h3>
+<p>Google Driveでスプレッドシートを用意しておきます。</p>
+<h3 id="作っていこう">作っていこう</h3>
+<p>Glide<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>のページにアクセスして、Create appを選択。</p>
+<p>先ほど作成したスプレッドシートを選択。</p>
+<p>タブの項目からタブを作成します。</p>
+
+
+
+
+    
+    <figure>
+    <a href="/2020/06/04/334todo_glide/pic1.png">
+    <img src="/2020/06/04/334todo_glide/pic1_hu37bc65c7de59b5435ecc6626118daad6_6258_500x0_resize_q90_box_2.png" width="50%" alt="pic1.png">
+    </a>
+    
+    <figcaption>
+        <h4>今回のタブの設定</h4>
+    </figcaption>
+    
+    </figure>
+
+<p>次に表示する項目を設定しましょう。</p>
+<p>サイドバーからLayoutを選択し、先ほど作成したタブのプロパティを開きます。</p>
+<p>Todoのタブは以下のように設定しました。</p>
+<p>
+
+
+
+    
+    <figure>
+    <a href="/2020/06/04/334todo_glide/pic2.png">
+    <img src="/2020/06/04/334todo_glide/pic2_hub4a0bbad54629579c8d1c7031b942b89_18726_500x0_resize_q90_box_2.png" width="50%" alt="pic2.png">
+    </a>
+    
+    <figcaption>
+        <h4>Layout</h4>
+    </figcaption>
+    
+    </figure>
+
+
+
+
+
+    
+    <figure>
+    <a href="/2020/06/04/334todo_glide/pic3.png">
+    <img src="/2020/06/04/334todo_glide/pic3_hu321b742ce7955471b4bcc278a8095275_24498_500x0_resize_q90_box_2.png" width="50%" alt="pic3.png">
+    </a>
+    
+    <figcaption>
+        <h4>Features</h4>
+    </figcaption>
+    
+    </figure>
+
+
+
+
+
+    
+    <figure>
+    <a href="/2020/06/04/334todo_glide/pic4.png">
+    <img src="/2020/06/04/334todo_glide/pic4_huda3d7a5bac2ff2a4444e1bdc716ec491_21078_500x0_resize_q90_box_2.png" width="50%" alt="pic4.png">
+    </a>
+    
+    <figcaption>
+        <h4>Add</h4>
+    </figcaption>
+    
+    </figure>
+</p>
+<p>DoneのタブはFilterを<em>Done is true</em>に設定。</p>
+<p>これでサイドバーのSettingsから見た目をいい感じにすると完成です。</p>
+<p>今回はユーザー固有のデータを利用していないので、やることがインターネットに大放流されます。<del>許して</del></p>
+<p>PWAが動くようになれば、右上のShareボタンから0.334秒でリリースできます。</p>
+<p>今回作成したアプリは</p>
+
+<iframe class="hatenablogcard" style="width:100%;height:155px;max-width:500px;" src="https://hatenablog-parts.com/embed?url=https%3a%2f%2fhutmr.glideapp.io%2f" width="300" height="150" frameborder="0" scrolling="no"></iframe>
+<p>上のリンクから使えます。
+よかったら試してみてね。</p>
+<h2 id="終わりに">終わりに</h2>
+<p>Glide<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>を使って簡単にアプリケーションを作ることができました。</p>
+<p>データをスプレッドシートにまとめて配信するなどの用途には良さそうですね。</p>
+<p>おわり。</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://www.glideapps.com">Glide</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</div>
+
+  <footer class="article-footer">
+
+    
+<aside class="share">
+  <a href="https://b.hatena.ne.jp/add?mode=confirm&url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&title=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e" title="はてなブックマーク" class="ht" target="_blank" rel="nofollow">B!</a>
+  <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&text=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e&tw_p=tweetbutton" title="Twitterでシェア" class="tw" target="_blank" rel="nofollow"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&t=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e" title="Facebookでシェア" class="fb" target="_blank" rel="nofollow"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+  <a href="https://getpocket.com/edit?url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f&title=Glide%e3%82%92%e4%bd%bf%e3%81%a3%e3%81%a6334%e7%a7%92%e3%81%a7TODO%e3%82%a2%e3%83%97%e3%83%aa%e3%82%92%e4%bd%9c%e3%82%8b%e8%a9%b1%20-%20%e3%81%8a%e6%b0%97%e6%8c%81%e3%81%a1%e8%a1%a8%e6%98%8e" title="Pocketに保存" class="pk" target="_blank" rel="nofollow"><i class="fab fa-get-pocket" aria-hidden="true"></i></a>
+  <a href="https://social-plugins.line.me/lineit/share?url=https%3a%2f%2fblog.sw-saturn.dev%2famp%2f2020%2f06%2f04%2f334todo_glide%2f" title="LINEでシェア" class="ln" target="_blank" rel="nofollow"><i class="fab fa-line" aria-hidden="true"></i></a>
+</aside>
+
+
+    <section class="footer">
+      <div>
+        <nav class="crumb">
+          <ol>
+            <li><a href="https://blog.sw-saturn.dev/"><i class="fas fa-home" aria-hidden="true"></i>TOP</a></li>
+            
+            <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://blog.sw-saturn.dev/post/" itemprop="url"><span itemprop="title">POST</span></a></li>
+            
+            <li class="active">Glideを使って334秒でTODOアプリを作る話</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    
+    
+    
+    <section class="footer">
+      <header>
+        <a href="https://blog.sw-saturn.dev/tags/">TAGS</a>
+      </header>
+      <div>
+        <ul class="terms">
+          
+          <li><a href="https://blog.sw-saturn.dev/tags/%E9%96%8B%E7%99%BA/">開発</a></li>
+          
+          <li><a href="https://blog.sw-saturn.dev/tags/glide/">glide</a></li>
+          
+          <li><a href="https://blog.sw-saturn.dev/tags/flutter/">flutter</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+<div class="adj">
+  <div class="mrow">
+    
+    <div class="mcol c6">
+      <header>Previous Article</header>
+      <article class="lism">
+  <a href="https://blog.sw-saturn.dev/amp/2020/05/19/naspi/">
+    <div class="thumb thumb-44ea5e1795d089d8cde5426e5fc85fd5"></div>
+
+    <div class="inner">
+      <div class="title">Raspberry PiをNAS化した</div>
+
+      <ul class="facts sm">
+        <li><i class="fas fa-calendar" aria-hidden="true"></i><time datetime="19007-05-19T12:20:00JST">May 19, 2020</time></li>
+        <li><i class="fas fa-bookmark" aria-hidden="true"></i>POST</li>
+        
+      </ul>
+
+    </div>
+  </a>
+</article>
+
+    </div>
+    
+    
+  </div>
+</div>
+
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-container">
+        <p>&copy; 2020 でみ</p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><a href="https://github.com/dim0627/hugo_theme_robust">Robust</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+  </body>
+</html>
+
