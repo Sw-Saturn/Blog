@@ -13,7 +13,11 @@ slug: "334todo_glide"
 
 こんにちは。でみです。
 
-今回はGlide[^1]というRADフレームワークを使って、334秒でTODOアプリを作っていきます。
+今回はGlide[^1]というライブラリを使って、334秒でTODOアプリを作っていきます。
+
+## これは何?
+
+Googleスプレッドシート[^2]をデータベースとして扱え、ノンコーディングでPWA[^3]を作成できるライブラリ。
 
 ## 本題
 
@@ -60,10 +64,12 @@ PWAが動くようになれば、右上のShareボタンから0.334秒でリリ�
 
 ## 終わりに
 
-Glide[^1]を使って簡単にアプリケーションを作ることができました。
+Glide[^1]を使って簡単にPWAを作ることができました。
 
 データをスプレッドシートにまとめて配信するなどの用途には良さそうですね。
 
 おわり。
 
 [^1]: [Glide](https://www.glideapps.com)
+[^2]: [Google スプレッドシート](https://www.google.com/intl/ja_jp/sheets/about/)
+[^3]: [プログレッシブウェブアプリ | MDN](https://developer.mozilla.org/ja/docs/Web/Progressive_web_apps)
