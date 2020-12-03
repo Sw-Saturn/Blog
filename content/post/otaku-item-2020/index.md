@@ -37,7 +37,7 @@ slug: "otaku-item-2020"
 
 {{< thumbnail src="IMG_20200507_200913.jpg" width="100%" title="FUJIFILM X-E3" >}}
 
-{{< thumbnail src="_DSF5722.jpeg" width="100%" title="作例1" >}}
+{{< thumbnail src="DSF5722.jpeg" width="100%" title="作例1" >}}
 
 オタラジの沖縄旅行で持っていったやつがこれ。
 
@@ -53,11 +53,11 @@ slug: "otaku-item-2020"
 
 新しいレンズ[^2]が生えました。
 
-{{< thumbnail src="_DSF5748.jpg" width="100%" title="ZEISS Touit 1.8/32" >}}
+{{< thumbnail src="DSF5748.jpg" width="100%" title="ZEISS Touit 1.8/32" >}}
 
 こんなのを撮ってました。
 
-{{< thumbnail src="_DSF5797.jpg" width="100%" title="作例1" >}}
+{{< thumbnail src="DSF5797.jpg" width="100%" title="作例1" >}}
 
 {{< thumbnail src="StarStaX__DSF6418-_DSF6493_gap_filling.jpg" width="100%" title="作例2" >}}
 
@@ -69,7 +69,7 @@ slug: "otaku-item-2020"
 
 憧れだったライカのカメラ (LEICA Q Typ 116[^3]) が生えました。
 
-{{< thumbnail src="_DSF6934.jpg" width="100%" title="LEICA Q Typ 116" >}}
+{{< thumbnail src="DSF6934.jpg" width="100%" title="LEICA Q Typ 116" >}}
 
 レンズ沼を防ぐために、レンズ固定式カメラをチョイス。
 
