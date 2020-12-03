@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.sw-saturn.dev/post/</loc>
+    <lastmod>2020-12-04T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/tags/</loc>
+    <lastmod>2020-12-04T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/</loc>
+    <lastmod>2020-12-04T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/2020/12/04/otaku-item-2020/</loc>
+    <lastmod>2020-12-04T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.sw-saturn.dev/tags/%E3%82%AB%E3%83%A1%E3%83%A9/</loc>
+    <lastmod>2020-12-04T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.sw-saturn.dev/tags/flutter/</loc>
     <lastmod>2020-06-04T03:34:00+09:00</lastmod>
   </url>
@@ -14,21 +39,6 @@
   
   <url>
     <loc>https://blog.sw-saturn.dev/2020/06/04/334todo_glide/</loc>
-    <lastmod>2020-06-04T03:34:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.sw-saturn.dev/post/</loc>
-    <lastmod>2020-06-04T03:34:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.sw-saturn.dev/tags/</loc>
-    <lastmod>2020-06-04T03:34:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.sw-saturn.dev/</loc>
     <lastmod>2020-06-04T03:34:00+09:00</lastmod>
   </url>
   
@@ -49,11 +59,6 @@
   
   <url>
     <loc>https://blog.sw-saturn.dev/2020/05/12/luminar3/</loc>
-    <lastmod>2020-05-12T19:35:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.sw-saturn.dev/tags/%E3%82%AB%E3%83%A1%E3%83%A9/</loc>
     <lastmod>2020-05-12T19:35:01+09:00</lastmod>
   </url>
   

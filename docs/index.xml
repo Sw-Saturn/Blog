@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 でみ</copyright>
-    <lastBuildDate>Thu, 04 Jun 2020 03:34:00 +0900</lastBuildDate><atom:link href="https://blog.sw-saturn.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0900</lastBuildDate><atom:link href="https://blog.sw-saturn.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>オタクの買ったもの2020</title>
+      <link>https://blog.sw-saturn.dev/2020/12/04/otaku-item-2020/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://blog.sw-saturn.dev/2020/12/04/otaku-item-2020/</guid>
+      <description>オタクの散財を懺悔します</description>
+    </item>
+    
     <item>
       <title>Glideを使って334秒でTODOアプリを作る話</title>
       <link>https://blog.sw-saturn.dev/2020/06/04/334todo_glide/</link>
