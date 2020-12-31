@@ -6,7 +6,7 @@ hasCJKLanguage = true
 canonifyurls = false
 theme = "robust"
 enableEmoji = true
-copyright = "&copy; 2020 でみ"
+copyright = "&copy; 2021 でみ"
 
 [Author]
     name = "でみ"
